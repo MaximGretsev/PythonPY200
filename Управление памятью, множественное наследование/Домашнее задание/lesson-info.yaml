@@ -1,0 +1,12 @@
+content:
+- task1_test_case__getitem__
+- task2_test_case__setitem__
+- task3_test_case__delitem__
+- task4_test_case__contains__
+- task5_test_case__iter__
+- task6_test_case_index
+- task7_test_case_remove
+- task8_test_case_count
+- task9_test_case_extend
+- task10_test_case_pop
+- task11_test_case_insert
