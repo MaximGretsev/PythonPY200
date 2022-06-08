@@ -28,7 +28,7 @@ files:
   visible: true
   placeholders:
   - offset: 391
-    length: 34
+    length: 26
     placeholder_text: '# TODO установить значение следующего узла с помощью метода
       set_next'
     initial_state:
@@ -40,7 +40,7 @@ files:
     encrypted_possible_answer: |-
       self.next = None
               self.set_next(next_)
-  - offset: 558
+  - offset: 550
     length: 64
     placeholder_text: |-
       # TODO метод проверки корректности связываемого узла
@@ -54,7 +54,7 @@ files:
     encrypted_possible_answer: |2-
        if not isinstance(node, (type(None), Node)):
                   raise TypeError
-  - offset: 696
+  - offset: 688
     length: 98
     placeholder_text: |-
       # TODO метод должен проверять корректность узла и устанавливать значение атрибуту next
@@ -68,7 +68,7 @@ files:
     encrypted_possible_answer: |-
       self.is_valid(next_)
               self.next = next_
-  - offset: 828
+  - offset: 820
     length: 50
     placeholder_text: '# TODO инициализируйте два узла с любыми значеними'
     initial_state:
@@ -80,7 +80,7 @@ files:
     encrypted_possible_answer: |-
       first_node = Node(1)
           second_node = Node(2)
-  - offset: 884
+  - offset: 876
     length: 36
     placeholder_text: '# TODO свяжите первый узел со вторым'
     initial_state:
