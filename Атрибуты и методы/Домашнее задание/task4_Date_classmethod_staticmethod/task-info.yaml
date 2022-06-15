@@ -11,7 +11,7 @@ files:
       offset: 555
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '...'
   - offset: 709
     length: 11
@@ -21,7 +21,7 @@ files:
       offset: 709
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '...'
   - offset: 845
     length: 11
@@ -31,7 +31,7 @@ files:
       offset: 845
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '...'
   text: |
     class Date:
@@ -70,6 +70,6 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true

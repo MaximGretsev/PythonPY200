@@ -3,15 +3,15 @@ files:
 - name: task.py
   visible: true
   placeholders:
-  - offset: 948
-    length: 41
+  - offset: 1048
+    length: 1714
     placeholder_text: '# TODO реализовать класс DoubleLinkedNode'
     initial_state:
       length: 41
       offset: 948
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: '# TODO'
   text: |
     from typing import Any, Optional
@@ -53,6 +53,11 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+- name: test_task.py
+  visible: true
+  learner_created: true
+status: Solved
+feedback:
+  time: Wed, 15 Jun 2022 17:38:58 UTC
 record: -1
 post_submission_on_open: true

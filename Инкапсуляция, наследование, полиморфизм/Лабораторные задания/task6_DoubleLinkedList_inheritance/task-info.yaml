@@ -11,7 +11,7 @@ files:
       offset: 2127
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: '...'
   text: |
     from typing import Any, Iterable, Optional
@@ -130,6 +130,6 @@ files:
 
     # TODO реализовать класс DoubleLinkedNode
   learner_created: false
-status: Unchecked
+status: Solved
 record: -1
 post_submission_on_open: true
