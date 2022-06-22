@@ -17,84 +17,84 @@ files:
   visible: true
   placeholders:
   - offset: 181
-    length: 42
+    length: 49
     placeholder_text: '...):  # TODO наследовать класс LinkedList'
     initial_state:
       length: 42
       offset: 181
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: 'LinkedList):'
-  - offset: 312
-    length: 68
+  - offset: 310
+    length: 60
     placeholder_text: '...  # TODO расширяем конструктор, чтобы в связном списке был
       driver'
     initial_state:
       length: 68
       offset: 312
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       super().__init__(data)
               self.driver = driver
-  - offset: 489
-    length: 38
+  - offset: 479
+    length: 104
     placeholder_text: '...  # TODO считать данные из драйвера'
     initial_state:
       length: 38
       offset: 489
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       data_from_driver = self.driver.read()
 
               self.clear()
               for value in data_from_driver:
                   self.append(value)
-  - offset: 624
-    length: 46
+  - offset: 680
+    length: 23
     placeholder_text: '...  # TODO записать данные с помощью драйвера'
     initial_state:
       length: 46
       offset: 624
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: self.driver.write(self)
-  - offset: 709
-    length: 56
+  - offset: 742
+    length: 22
     placeholder_text: '...  # TODO инициализировать пустой LinkedListWithDriver'
     initial_state:
       length: 56
       offset: 709
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: LinkedListWithDriver()
-  - offset: 817
-    length: 48
+  - offset: 816
+    length: 86
     placeholder_text: '# TODO инициализировать драйвер и считать данные'
     initial_state:
       length: 48
       offset: 817
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       ll.driver = SimpleFileFactoryMethod.get_driver()
           ll.read()
-  - offset: 934
-    length: 41
+  - offset: 971
+    length: 87
     placeholder_text: '# TODO заменить драйвер и записать данные'
     initial_state:
       length: 41
       offset: 934
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       ll.driver = SimpleFileFactoryMethod.get_driver()
           ll.write()
@@ -362,6 +362,11 @@ files:
         driver = SimpleFileFactoryMethod.get_driver()
         print(driver)
   learner_created: false
-status: Unchecked
+- name: untitled.txt
+  visible: true
+  learner_created: true
+status: Solved
+feedback:
+  time: Wed, 22 Jun 2022 16:49:29 UTC
 record: -1
 post_submission_on_open: true
