@@ -9,7 +9,7 @@ files:
   visible: true
   placeholders:
   - offset: 202
-    length: 22
+    length: 37
     placeholder_text: '# TODO вызвать конструктор базового класса'
     initial_state:
       length: 42
@@ -44,5 +44,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 15 Jun 2022 15:17:45 UTC
+  time: Wed, 22 Jun 2022 17:46:51 UTC
 record: -1

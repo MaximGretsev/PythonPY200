@@ -28,7 +28,7 @@ class Circle(Figure):
         self.r = r
 
     def area(self):
-        super().area()
+        print(f"Вызван метод класса {self.__class__.__name__}")
         return math.pi * self.r ** 2
 
 

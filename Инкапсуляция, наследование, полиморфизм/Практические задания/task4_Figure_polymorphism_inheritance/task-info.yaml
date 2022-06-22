@@ -28,7 +28,7 @@ files:
               print(f"Вызван метод класса {self.__class__.__name__}")
               return self.a * self.b
   - offset: 443
-    length: 123
+    length: 163
     placeholder_text: '...  # TODO определить конструктор и перегрузить метод area'
     initial_state:
       length: 59
@@ -83,5 +83,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Wed, 15 Jun 2022 15:24:30 UTC
+  time: Wed, 22 Jun 2022 17:49:44 UTC
 record: -1

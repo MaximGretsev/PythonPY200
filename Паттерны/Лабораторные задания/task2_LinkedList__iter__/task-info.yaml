@@ -12,28 +12,28 @@ files:
   visible: true
   placeholders:
   - offset: 2238
-    length: 85
+    length: 134
     placeholder_text: '...  # TODO написать функцию-генератор, которая будет возвращать
       узлы связного списка'
     initial_state:
       length: 85
       offset: 2238
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       current_node = self.head
               for _ in range(self.len):
                   yield current_node
                   current_node = current_node.next
-  - offset: 2417
+  - offset: 2466
     length: 56
     placeholder_text: '# TODO реализовать функцию-генератор по значениям списка'
     initial_state:
       length: 56
       offset: 2417
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: |-
       for node in self.nodes_iterator():

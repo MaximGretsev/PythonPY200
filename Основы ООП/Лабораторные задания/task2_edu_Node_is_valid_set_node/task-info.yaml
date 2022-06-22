@@ -28,7 +28,7 @@ files:
   visible: true
   placeholders:
   - offset: 391
-    length: 26
+    length: 54
     placeholder_text: '# TODO установить значение следующего узла с помощью метода
       set_next'
     initial_state:
@@ -36,12 +36,12 @@ files:
       offset: 399
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       self.next = None
               self.set_next(next_)
-  - offset: 550
-    length: 64
+  - offset: 578
+    length: 103
     placeholder_text: |-
       # TODO метод проверки корректности связываемого узла
               ...
@@ -50,12 +50,12 @@ files:
       offset: 601
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |2-
        if not isinstance(node, (type(None), Node)):
                   raise TypeError
-  - offset: 688
-    length: 98
+  - offset: 755
+    length: 46
     placeholder_text: |-
       # TODO метод должен проверять корректность узла и устанавливать значение атрибуту next
               ...
@@ -64,31 +64,31 @@ files:
       offset: 739
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       self.is_valid(next_)
               self.next = next_
-  - offset: 820
-    length: 50
+  - offset: 835
+    length: 46
     placeholder_text: '# TODO инициализируйте два узла с любыми значеними'
     initial_state:
       length: 50
       offset: 871
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: |-
       first_node = Node(1)
           second_node = Node(2)
-  - offset: 876
-    length: 36
+  - offset: 887
+    length: 32
     placeholder_text: '# TODO свяжите первый узел со вторым'
     initial_state:
       length: 36
       offset: 927
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: first_node.set_next(second_node)
   text: |
     from typing import Any, Optional
@@ -127,5 +127,8 @@ files:
         print(first_node)
         print(second_node)
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 22 Jun 2022 17:26:18 UTC
 record: -1

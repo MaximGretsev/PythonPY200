@@ -8,7 +8,7 @@ class Figure:
 
 class Rectangle(Figure):
     def __init__(self, a, b, name=None):
-        super().__init__(name)
+        super(Rectangle, self).__init__(name)
         self.a = a
         self.b = b
 
