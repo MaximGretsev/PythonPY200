@@ -12,12 +12,12 @@ class DoubleLinkedNode(Node):
 
     @property
     def prev(self):
-        return self._prev  # TODO объект теперь вызываемый
+        return None if self._prev is None else self._prev()
 
     @prev.setter
     def prev(self, prev: Optional["Node"]):
         self.is_valid(prev)
-        self._prev = prev  # TODO сделать слабую ссылку
+        self._prev = None if prev is None else weakref.ref(prev)
 
     def __repr__(self) -> str:
         next_prev = None if self.prev is None else f"DoubleLinkedNode({self.prev})"

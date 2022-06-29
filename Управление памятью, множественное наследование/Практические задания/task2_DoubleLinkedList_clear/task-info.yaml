@@ -14,24 +14,24 @@ files:
   visible: true
   placeholders:
   - offset: 351
-    length: 43
+    length: 44
     placeholder_text: 'self._prev  # TODO объект теперь вызываемый'
     initial_state:
       length: 43
       offset: 351
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: self._prev()
-  - offset: 493
-    length: 47
+  - offset: 494
+    length: 56
     placeholder_text: 'self._prev = prev  # TODO сделать слабую ссылку'
     initial_state:
       length: 47
       offset: 493
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: self._prev = None if prev is None else weakref.ref(prev)
   text: |
     from typing import Any, Optional
@@ -228,5 +228,8 @@ files:
         ll.append(100)
         print(ll)
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Wed, 29 Jun 2022 15:38:58 UTC
 record: -1
