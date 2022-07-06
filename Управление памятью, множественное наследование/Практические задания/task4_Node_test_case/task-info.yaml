@@ -90,9 +90,6 @@ files:
             next_node = Node("next")
             self.assertEqual(id(Node("test", next_node).next), id(next_node))
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
 - name: tests/__init__.py
   visible: false
   learner_created: false
@@ -107,7 +104,7 @@ files:
       offset: 56
     initialized_from_dependency: false
     selected: false
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: 'unittest.TestCase):'
   - offset: 261
     length: 122
@@ -118,7 +115,7 @@ files:
       offset: 247
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       node = Node("node_without_next")
 
@@ -132,7 +129,7 @@ files:
       offset: 452
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       right_node = Node("right")
               left_node = Node("left", right_node)
@@ -147,7 +144,7 @@ files:
       offset: 623
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       node = Node("node_without_next")
 
@@ -161,7 +158,7 @@ files:
       offset: 685
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: '@unittest.skip("Тест пропущен по причине ...")'
   - offset: 1491
     length: 97
@@ -171,7 +168,7 @@ files:
       offset: 973
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: self.assertEqual(str(node), str(some_value))
   - offset: 1650
     length: 60
@@ -181,7 +178,7 @@ files:
       offset: 1052
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       Node.is_valid(None)
               Node.is_valid(Node("correct_node"))
@@ -194,7 +191,7 @@ files:
       offset: 1119
     initialized_from_dependency: false
     selected: true
-    status: Solved
+    status: Unchecked
     encrypted_possible_answer: |-
       with self.assertRaises(TypeError):
                   Node.is_valid("incorrect_type")
@@ -232,6 +229,9 @@ files:
             ...  # TODO проверить метод is_valid при корректных узлах
 
             # TODO с помощью менеджера контакста и метода assertRaises проверить корректность вызываемой ошибки
+  learner_created: false
+- name: __init__.py
+  visible: false
   learner_created: false
 status: Solved
 feedback:

@@ -1,6 +1,6 @@
 import unittest
 
-from task import Node
+from task import Nod e
 
 
 class TestCase(unittest.TestCase):  # TODO наследоваться от unittest.TestCase

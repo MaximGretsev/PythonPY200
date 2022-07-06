@@ -4,7 +4,7 @@ files:
   visible: true
   placeholders:
   - offset: 1048
-    length: 1714
+    length: 1760
     placeholder_text: '# TODO реализовать класс DoubleLinkedNode'
     initial_state:
       length: 41
@@ -58,6 +58,6 @@ files:
   learner_created: true
 status: Solved
 feedback:
-  time: Wed, 15 Jun 2022 17:38:58 UTC
+  time: Wed, 06 Jul 2022 15:14:59 UTC
 record: -1
 post_submission_on_open: true

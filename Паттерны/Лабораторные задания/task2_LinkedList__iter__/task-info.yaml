@@ -20,7 +20,7 @@ files:
       offset: 2238
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: |-
       current_node = self.head
               for _ in range(self.len):
@@ -34,7 +34,7 @@ files:
       offset: 2417
     initialized_from_dependency: false
     selected: true
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: |-
       for node in self.nodes_iterator():
                   yield node.value
@@ -166,5 +166,15 @@ files:
             self.is_valid(next_)
             self._next = next_
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: Wed, 06 Jul 2022 16:25:15 UTC
+  expected: |
+    Вызван метод "__iter__"
+    1
+    2
+    3
+  actual: |
+    Вызван метод "__iter__"
 record: -1

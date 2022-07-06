@@ -34,31 +34,31 @@ class Node:
         self._next = next_
 
 
-class DoubleLinkedNode(Node):
-    def __init__(self, value, next_=None, prev=None):
-        super().__init__(value, next_)
-        self._prev = prev
-
-    @property
-    def prev(self):
-        return self._prev
-
-    @prev.setter
-    def prev(self, value):
-        self._prev = value
-
-    def __repr__(self):
-        next_repr: str = str(None) if self.next is None else f'DoubleLinkedNode({self.next.value}, {None}, {None})'
-        prev_repr: str = str(None) if self._prev is None else f'DoubleLinkedNode({self._prev.value}, {None}, {None})'
-        return f'DoubleLinkedNode({self.value}, {next_repr}, {prev_repr})'
-
-    def is_valid(self, prev_node: Any) -> None:
-        if not isinstance(prev_node, (type(None), DoubleLinkedNode)):
-            raise TypeError
-    # TODO __repr__ надо будет перегрузить, чтобы он показывал  PrevNode
-    # TODO __str__ не перегружаем, его надо наследовать?
-    # TODO is_valid перегрузить, чтобы использовалась PrevNode
-    # TODO сделать prev по методу и подобию next_
+# class DoubleLinkedNode(Node):
+#     def __init__(self, value, next_=None, prev=None):
+#         super().__init__(value, next_)
+#         self._prev = prev
+#
+#     @property
+#     def prev(self):
+#         return self._prev
+#
+#     @prev.setter
+#     def prev(self, value):
+#         self._prev = value
+#
+#     def __repr__(self):
+#         next_repr: str = str(None) if self.next is None else f'DoubleLinkedNode({self.next.value}, {None}, {None})'
+#         prev_repr: str = str(None) if self._prev is None else f'DoubleLinkedNode({self._prev.value}, {None}, {None})'
+#         return f'DoubleLinkedNode({self.value}, {next_repr}, {prev_repr})'
+#
+#     def is_valid(self, prev_node: Any) -> None:
+#         if not isinstance(prev_node, (type(None), DoubleLinkedNode)):
+#             raise TypeError
+#     # TODO __repr__ надо будет перегрузить, чтобы он показывал  PrevNode
+#     # TODO __str__ не перегружаем, его надо наследовать?
+#     # TODO is_valid перегрузить, чтобы использовалась PrevNode
+#     # TODO сделать prev по методу и подобию next_
 
 
 if __name__ == '__main__':
